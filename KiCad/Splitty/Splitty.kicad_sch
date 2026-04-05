@@ -1,0 +1,2248 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "32ee08f7-a6c8-4bf3-88d7-556af5e47718")
+	(paper "A4")
+	(title_block
+		(title "Splitty")
+		(date "2026-04-05")
+		(rev "1")
+		(company "Illusion Interactive")
+	)
+	(lib_symbols
+		(symbol "Connector:Jack-DC"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jack-DC"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 1.27 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "DC Barrel Jack"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "DC power barrel jack connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "BarrelJack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jack-DC_0_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.302 1.905)
+					(mid -3.9343 2.54)
+					(end -3.302 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.302 1.905)
+					(mid -3.9343 2.54)
+					(end -3.302 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 3.683 3.175)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jack-DC_1_1"
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Custom:Power Monitor"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Power Monitor_0_1"
+				(rectangle
+					(start -8.89 -1.27)
+					(end 10.16 -13.97)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Power Monitor_1_1"
+				(pin input line
+					(at -11.43 -3.81 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 -6.35 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 -8.89 0)
+					(length 2.54)
+					(name "AMM_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 -11.43 0)
+					(length 2.54)
+					(name "THERM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -3.81 180)
+					(length 2.54)
+					(name "VSENSE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -8.89 180)
+					(length 2.54)
+					(name "AMM_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -11.43 180)
+					(length 2.54)
+					(name "THERM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:Thermistor_NTC"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TH"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Thermistor_NTC"
+				(at 3.175 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Temperature dependent resistor, negative temperature coefficient"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "thermistor NTC resistor sensor RTD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_* RV_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Thermistor_NTC_0_1"
+				(arc
+					(start -3.175 2.413)
+					(mid -3.0506 2.3165)
+					(end -3.048 2.159)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.048 2.794)
+					(mid -2.9736 2.9736)
+					(end -2.794 3.048)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.794 3.048)
+					(mid -2.6144 2.9736)
+					(end -2.54 2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.794 2.54)
+					(mid -2.9736 2.6144)
+					(end -3.048 2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.794 1.905)
+					(mid -2.9736 1.9794)
+					(end -3.048 2.159)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 2.159)
+					(mid -2.6144 1.9794)
+					(end -2.794 1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.159 2.794)
+					(mid -2.434 2.5608)
+					(end -2.794 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.159) (xy -2.54 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.683) (xy -2.54 -1.397) (xy -2.794 -2.159) (xy -2.286 -2.159) (xy -2.54 -1.397) (xy -2.54 -1.651)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.54) (xy -1.778 1.524) (xy 1.778 -1.524) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -1.397) (xy -1.778 -3.683) (xy -2.032 -2.921) (xy -1.524 -2.921) (xy -1.778 -3.683)
+						(xy -1.778 -3.429)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Thermistor_NTC_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Busses are split vertically:\nLeft: A1 - A3\nMiddle: B1 - B3\nRight: C1 - C3\n\nMax amperage: 10A\nEach output: 5A Max (22 AWG)\nEach Bus: 10A Max (18 AWG)\nEach VOUT = VIN"
+		(exclude_from_sim no)
+		(at 146.304 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7736f114-bbce-4f92-92b4-7bad1ad6f433")
+	)
+	(text "BLK"
+		(exclude_from_sim no)
+		(at 127.254 77.978 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c9c2d8ad-53b4-4592-a37a-3654c367b177")
+	)
+	(text "RED"
+		(exclude_from_sim no)
+		(at 150.114 74.676 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d655ca4c-9907-4c3d-a133-3a941e515634")
+	)
+	(junction
+		(at 162.56 92.71)
+		(diameter 0)
+		(color 0 0 0 1)
+		(uuid "2e3431dc-306a-4981-a669-14cd45754c11")
+	)
+	(junction
+		(at 143.51 95.25)
+		(diameter 0)
+		(color 255 0 0 1)
+		(uuid "3b063fc8-2e84-4fcb-8157-55143e8da9cc")
+	)
+	(junction
+		(at 132.08 64.77)
+		(diameter 0)
+		(color 255 0 0 1)
+		(uuid "48b411bc-8dcb-4a63-95bb-8a26eb991c10")
+	)
+	(junction
+		(at 167.64 95.25)
+		(diameter 0)
+		(color 255 0 0 1)
+		(uuid "5b83526a-4524-4851-bc06-2672aeebd396")
+	)
+	(junction
+		(at 120.65 100.33)
+		(diameter 0)
+		(color 0 0 0 1)
+		(uuid "616ba7de-3c7b-42d0-9924-ab790b6e12ac")
+	)
+	(junction
+		(at 162.56 100.33)
+		(diameter 0)
+		(color 0 0 0 1)
+		(uuid "61a9719f-1548-4d30-b53a-991f52210313")
+	)
+	(junction
+		(at 124.46 95.25)
+		(diameter 0)
+		(color 255 0 0 1)
+		(uuid "85738e41-2193-4d20-a3d2-e4a76648b61e")
+	)
+	(junction
+		(at 148.59 113.03)
+		(diameter 0)
+		(color 0 0 0 1)
+		(uuid "8975d800-195a-4f70-8ef5-5e00b4ec7df5")
+	)
+	(junction
+		(at 168.91 100.33)
+		(diameter 0)
+		(color 0 0 0 1)
+		(uuid "9190037a-b656-4c9e-8897-9bcc0787783f")
+	)
+	(junction
+		(at 132.08 71.12)
+		(diameter 0)
+		(color 255 0 0 1)
+		(uuid "a5541f5f-8a09-414a-9529-b3b71390c9f1")
+	)
+	(junction
+		(at 121.92 95.25)
+		(diameter 0)
+		(color 255 0 0 1)
+		(uuid "af2e9835-17f6-4613-907d-f037ffd3ea5f")
+	)
+	(junction
+		(at 148.59 100.33)
+		(diameter 0)
+		(color 0 0 0 1)
+		(uuid "e10fc5b6-e2d7-4ee1-85dd-f0c097cc1d9c")
+	)
+	(junction
+		(at 143.51 111.76)
+		(diameter 0)
+		(color 255 0 0 1)
+		(uuid "e8095cba-49f3-4a7f-ae92-08ed275e0e05")
+	)
+	(wire
+		(pts
+			(xy 119.38 110.49) (xy 121.92 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "03df96a4-138a-4163-b860-6cda09b84f7b")
+	)
+	(wire
+		(pts
+			(xy 148.59 113.03) (xy 148.59 100.33)
+		)
+		(stroke
+			(width 0.4572)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "06f7b3a8-89dd-4c39-a768-52f86430b24c")
+	)
+	(wire
+		(pts
+			(xy 167.64 113.03) (xy 167.64 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "078947c0-ddb9-42c2-b8b9-76a85ec9cd77")
+	)
+	(wire
+		(pts
+			(xy 143.51 95.25) (xy 167.64 95.25)
+		)
+		(stroke
+			(width 0.4572)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "14894876-94b5-48ec-9460-c9f46288bc17")
+	)
+	(wire
+		(pts
+			(xy 119.38 85.09) (xy 120.65 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "1a96b1d1-6930-4828-b02e-b0c589ebbf96")
+	)
+	(wire
+		(pts
+			(xy 168.91 100.33) (xy 170.18 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "1c57497d-b24c-4a39-8906-5a5cf83d42e1")
+	)
+	(wire
+		(pts
+			(xy 162.56 92.71) (xy 162.56 76.2)
+		)
+		(stroke
+			(width 0.4572)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "2077f3b0-78fc-4c67-a125-832c3a305a26")
+	)
+	(wire
+		(pts
+			(xy 162.56 111.76) (xy 162.56 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "2082b485-0163-4acf-88e0-d0e8a2070a13")
+	)
+	(wire
+		(pts
+			(xy 127 76.2) (xy 133.35 76.2)
+		)
+		(stroke
+			(width 0.4572)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "20957bdc-79cd-43ec-bde3-9033ad96af86")
+	)
+	(wire
+		(pts
+			(xy 133.35 71.12) (xy 132.08 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "25273c4b-e93a-47fe-a9c1-356c549d8636")
+	)
+	(wire
+		(pts
+			(xy 119.38 100.33) (xy 120.65 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "2b2a08a5-1ccd-45dd-a788-d367f33cb0e8")
+	)
+	(wire
+		(pts
+			(xy 120.65 100.33) (xy 120.65 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "2e50939d-8fd7-4e8d-adca-ccb622936665")
+	)
+	(wire
+		(pts
+			(xy 158.75 64.77) (xy 158.75 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "2ef46412-10be-428b-8d78-b4e7f6c3879f")
+	)
+	(wire
+		(pts
+			(xy 167.64 110.49) (xy 167.64 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "390a19c5-dc34-44b3-a46c-65f70adabe84")
+	)
+	(wire
+		(pts
+			(xy 167.64 95.25) (xy 170.18 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "4055e465-05a1-479b-8f36-d7ba27c2577a")
+	)
+	(wire
+		(pts
+			(xy 124.46 95.25) (xy 121.92 95.25)
+		)
+		(stroke
+			(width 0.4572)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "4a597388-4bbe-4fb1-85a1-2a10fe7d2d75")
+	)
+	(wire
+		(pts
+			(xy 132.08 62.23) (xy 132.08 64.77)
+		)
+		(stroke
+			(width 0.4572)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "4ab63fca-b911-42b9-8f5f-864660934417")
+	)
+	(wire
+		(pts
+			(xy 143.51 111.76) (xy 162.56 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "4e2e8ebc-fd36-46c1-ba67-f0415fb7044c")
+	)
+	(wire
+		(pts
+			(xy 121.92 95.25) (xy 119.38 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "5061cfd6-ccff-4fd6-a4ff-0e484aa3c2a4")
+	)
+	(wire
+		(pts
+			(xy 170.18 115.57) (xy 168.91 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "57084786-9a8e-4d9f-8f84-25960bf7634b")
+	)
+	(wire
+		(pts
+			(xy 170.18 110.49) (xy 167.64 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "58984a8f-f673-4a1b-b4bc-2c7d8bb90d9d")
+	)
+	(wire
+		(pts
+			(xy 158.75 78.74) (xy 157.48 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a4b7f15-289c-40f6-ba82-a62d866ade31")
+	)
+	(wire
+		(pts
+			(xy 132.08 64.77) (xy 158.75 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "5d9f001f-d50f-4835-8e1b-e3dd639c5d9a")
+	)
+	(wire
+		(pts
+			(xy 133.35 73.66) (xy 129.54 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "5e0d7b5e-c540-4bc3-86c9-b50bd246f56b")
+	)
+	(wire
+		(pts
+			(xy 132.08 88.9) (xy 140.97 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66b60d2c-ca6c-466f-a558-3aa5f71228f6")
+	)
+	(wire
+		(pts
+			(xy 148.59 88.9) (xy 158.75 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "688bac23-d3fd-4718-af51-67282ac12e0f")
+	)
+	(wire
+		(pts
+			(xy 132.08 71.12) (xy 124.46 71.12)
+		)
+		(stroke
+			(width 0.4572)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "6a792ac2-e837-4fdd-90d3-1fcc46f9468b")
+	)
+	(wire
+		(pts
+			(xy 119.38 115.57) (xy 120.65 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "6db5ea54-8714-409c-98df-7ab635f477f7")
+	)
+	(wire
+		(pts
+			(xy 162.56 76.2) (xy 157.48 76.2)
+		)
+		(stroke
+			(width 0.4572)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "7ad62f9a-07fb-4cbc-a550-624440898dca")
+	)
+	(wire
+		(pts
+			(xy 121.92 80.01) (xy 121.92 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "875bb7c3-0b57-452e-9131-e8c12488d808")
+	)
+	(wire
+		(pts
+			(xy 162.56 100.33) (xy 168.91 100.33)
+		)
+		(stroke
+			(width 0.4572)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "87f575f6-7514-4502-aaf0-bc8d6db64bf5")
+	)
+	(wire
+		(pts
+			(xy 132.08 78.74) (xy 132.08 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "972ac146-7230-414c-9584-37a949e14f94")
+	)
+	(wire
+		(pts
+			(xy 143.51 111.76) (xy 143.51 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "9a93fcc1-2927-41bb-a57e-ec22f869b55a")
+	)
+	(wire
+		(pts
+			(xy 120.65 85.09) (xy 120.65 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "a55732ad-df98-40a9-a843-5c7888c3d0f0")
+	)
+	(wire
+		(pts
+			(xy 168.91 100.33) (xy 168.91 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "a7aa0883-49b1-423b-9130-cf3c752abc3d")
+	)
+	(wire
+		(pts
+			(xy 167.64 95.25) (xy 167.64 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "a89e2ffc-358f-46a9-802d-e678f6f50407")
+	)
+	(wire
+		(pts
+			(xy 127 62.23) (xy 127 76.2)
+		)
+		(stroke
+			(width 0.4572)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "ac1cd45f-b99a-4fd1-ba18-da72fb2ba468")
+	)
+	(wire
+		(pts
+			(xy 121.92 95.25) (xy 121.92 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "adbe0aa4-8d88-4dc3-b843-d8848d60b263")
+	)
+	(wire
+		(pts
+			(xy 148.59 100.33) (xy 162.56 100.33)
+		)
+		(stroke
+			(width 0.4572)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "af848c65-1cc1-4c41-ac99-eb7e19a222af")
+	)
+	(wire
+		(pts
+			(xy 129.54 73.66) (xy 129.54 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "afb3e36c-5d54-4943-b3ed-d2d41a91be9e")
+	)
+	(wire
+		(pts
+			(xy 148.59 100.33) (xy 120.65 100.33)
+		)
+		(stroke
+			(width 0.4572)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "b2c9d1e8-1298-4dfc-9fc1-24160469aabb")
+	)
+	(wire
+		(pts
+			(xy 133.35 78.74) (xy 132.08 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b859efac-7b23-4c68-aa0c-9e8e43334780")
+	)
+	(wire
+		(pts
+			(xy 124.46 71.12) (xy 124.46 95.25)
+		)
+		(stroke
+			(width 0.4572)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "b9933ad3-e036-4821-bb1f-9f4434f865ff")
+	)
+	(wire
+		(pts
+			(xy 158.75 88.9) (xy 158.75 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba8e9b8a-09c2-42cd-bcc1-2c6fdc2edad6")
+	)
+	(wire
+		(pts
+			(xy 124.46 114.3) (xy 124.46 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "be5acce3-7b96-4cee-b016-750557793ae1")
+	)
+	(wire
+		(pts
+			(xy 129.54 113.03) (xy 148.59 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "ca1740a9-6733-4ee6-bf52-fdcffc5c1a7b")
+	)
+	(wire
+		(pts
+			(xy 129.54 114.3) (xy 129.54 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "d1b0e0fe-7e96-451e-a82d-1b0240349a7e")
+	)
+	(wire
+		(pts
+			(xy 143.51 95.25) (xy 124.46 95.25)
+		)
+		(stroke
+			(width 0.4572)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "d3b886ce-8587-4195-92a5-51ff959ff0c6")
+	)
+	(wire
+		(pts
+			(xy 132.08 71.12) (xy 132.08 64.77)
+		)
+		(stroke
+			(width 0.4572)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "d40642c9-b1d2-4a6f-ac88-515caf9f8bce")
+	)
+	(wire
+		(pts
+			(xy 124.46 111.76) (xy 143.51 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "d6718592-40ee-4c35-b44f-7f0a4340c418")
+	)
+	(wire
+		(pts
+			(xy 129.54 92.71) (xy 162.56 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "df1c4ae9-6e40-4cf8-b1c7-5a46ac7e7a1b")
+	)
+	(wire
+		(pts
+			(xy 167.64 80.01) (xy 170.18 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "df30f819-f753-4708-8874-5362de84b2d4")
+	)
+	(wire
+		(pts
+			(xy 158.75 71.12) (xy 157.48 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "ea29fdf9-842d-4541-bb6f-8b3265040634")
+	)
+	(wire
+		(pts
+			(xy 162.56 92.71) (xy 162.56 100.33)
+		)
+		(stroke
+			(width 0.4572)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "eea43c58-bc5c-4545-8fab-984bcf362451")
+	)
+	(wire
+		(pts
+			(xy 168.91 85.09) (xy 170.18 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "f4306635-c05d-485e-92ff-062ad85fddd6")
+	)
+	(wire
+		(pts
+			(xy 143.51 111.76) (xy 143.51 95.25)
+		)
+		(stroke
+			(width 0.4572)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "f9a26e54-ced8-4f08-a21b-fc257efadde1")
+	)
+	(wire
+		(pts
+			(xy 148.59 113.03) (xy 167.64 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "fcc5a9dd-139d-43c0-ad9a-485c7bb3314f")
+	)
+	(wire
+		(pts
+			(xy 168.91 115.57) (xy 168.91 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "fdd25da2-81e0-49da-812c-3b0b661a06b1")
+	)
+	(wire
+		(pts
+			(xy 119.38 80.01) (xy 121.92 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "fe8ee35d-f7eb-4522-a2a7-24a5ad4f4200")
+	)
+	(wire
+		(pts
+			(xy 148.59 113.03) (xy 148.59 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "ffe043ff-8939-4a57-bd6f-2e5d3958d99d")
+	)
+	(symbol
+		(lib_id "Connector:Jack-DC")
+		(at 127 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08d19e32-21a6-4f13-9b17-0181db80b9bd")
+		(property "Reference" "J5"
+			(at 132.08 120.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "VOUT B1"
+			(at 132.08 123.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.016 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.016 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Barrel Jack"
+			(at 127 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cedf0e4c-b8a2-4850-b328-003d44cdc69d")
+		)
+		(pin "1"
+			(uuid "d102365b-8ca5-41ff-baa4-d7c0ca88c168")
+		)
+		(instances
+			(project "Splitty"
+				(path "/32ee08f7-a6c8-4bf3-88d7-556af5e47718"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Jack-DC")
+		(at 146.05 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13f87064-6af2-47ba-9727-7a2d2f3f8d03")
+		(property "Reference" "J6"
+			(at 151.13 120.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "VOUT B2"
+			(at 151.13 123.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.066 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.066 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Barrel Jack"
+			(at 146.05 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9e1ac73c-c339-4601-82e7-33c9797dac8d")
+		)
+		(pin "1"
+			(uuid "b3b8f920-1e35-4e99-ab28-68c732cabb8b")
+		)
+		(instances
+			(project "Splitty"
+				(path "/32ee08f7-a6c8-4bf3-88d7-556af5e47718"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Jack-DC")
+		(at 111.76 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "257ab2cc-12a2-4f87-b68c-17ed5ebbb705")
+		(property "Reference" "J3"
+			(at 111.76 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VOUT A2"
+			(at 111.76 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Barrel Jack"
+			(at 111.76 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a4c5c905-6f88-480a-9eaa-361a3fe943c8")
+		)
+		(pin "1"
+			(uuid "febbadb6-2f72-4b97-a3a1-4d1fad5eb877")
+		)
+		(instances
+			(project "Splitty"
+				(path "/32ee08f7-a6c8-4bf3-88d7-556af5e47718"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Jack-DC")
+		(at 111.76 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d89891d-49f1-496b-b392-1f3154a12d9f")
+		(property "Reference" "J2"
+			(at 111.76 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VOUT A1"
+			(at 111.76 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Barrel Jack"
+			(at 111.76 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d8a93653-fa58-4d79-974e-7c179f9b70d0")
+		)
+		(pin "1"
+			(uuid "4bb741ee-0996-4a3c-9af4-36d69277eb53")
+		)
+		(instances
+			(project ""
+				(path "/32ee08f7-a6c8-4bf3-88d7-556af5e47718"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Jack-DC")
+		(at 129.54 54.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f2addfb-56c2-4635-b781-b9c0eb8ce98f")
+		(property "Reference" "J1"
+			(at 134.62 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VIN (7V5 - 40VDC) 10A Max"
+			(at 134.62 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.524 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.524 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Barrel Jack"
+			(at 129.54 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2f532bee-1eea-495d-b65b-527226482dc7")
+		)
+		(pin "1"
+			(uuid "84df93a9-6c46-4ff9-b721-093ab0af909f")
+		)
+		(instances
+			(project ""
+				(path "/32ee08f7-a6c8-4bf3-88d7-556af5e47718"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Jack-DC")
+		(at 111.76 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51e40818-11a4-43df-aa02-7f4d0fcb0500")
+		(property "Reference" "J4"
+			(at 111.76 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VOUT A3"
+			(at 111.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Barrel Jack"
+			(at 111.76 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "992f06de-0fa0-452d-b8fc-2be2f96ad373")
+		)
+		(pin "1"
+			(uuid "2f6da107-c153-40b0-b737-d2b71c178cdf")
+		)
+		(instances
+			(project "Splitty"
+				(path "/32ee08f7-a6c8-4bf3-88d7-556af5e47718"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Jack-DC")
+		(at 177.8 113.03 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "addd9cd5-131f-484a-b9be-9489886c0466")
+		(property "Reference" "J8"
+			(at 177.8 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VOUT C3"
+			(at 177.8 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Barrel Jack"
+			(at 177.8 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d26b7bc7-9358-428f-bf57-b2dfe231cb74")
+		)
+		(pin "1"
+			(uuid "f4a8a51e-bc5b-4288-8696-748d877bb461")
+		)
+		(instances
+			(project "Splitty"
+				(path "/32ee08f7-a6c8-4bf3-88d7-556af5e47718"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Jack-DC")
+		(at 177.8 97.79 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c12c717b-642d-4b27-bc5a-04dc144f0b56")
+		(property "Reference" "J9"
+			(at 177.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VOUT C2"
+			(at 177.8 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Barrel Jack"
+			(at 177.8 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2fd32e1f-6bab-47c0-8ac4-f1f79dbcb49a")
+		)
+		(pin "1"
+			(uuid "0d94e193-051a-4fb9-8b97-a2733a210b4d")
+		)
+		(instances
+			(project "Splitty"
+				(path "/32ee08f7-a6c8-4bf3-88d7-556af5e47718"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Jack-DC")
+		(at 177.8 82.55 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c90906ec-47c1-406b-a042-1ca7b928abf5")
+		(property "Reference" "J10"
+			(at 177.8 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VOUT C1"
+			(at 177.8 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Barrel Jack"
+			(at 177.8 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6edaa96c-55dc-4d88-9521-7525fcc4a977")
+		)
+		(pin "1"
+			(uuid "3b50e46b-efa3-4b45-af07-544ddccbe886")
+		)
+		(instances
+			(project "Splitty"
+				(path "/32ee08f7-a6c8-4bf3-88d7-556af5e47718"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom:Power Monitor")
+		(at 144.78 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6f92bb1-43d8-49a3-af09-f6a94b04a903")
+		(property "Reference" "U1"
+			(at 144.78 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 145.415 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "6d58bf54-c139-4e52-be96-bcc20587cba6")
+		)
+		(pin "3"
+			(uuid "aa2aa3c5-4c7e-4364-a0cd-a7b60fd8283e")
+		)
+		(pin "6"
+			(uuid "66b0fe74-ef14-4f64-8a0f-8dd1730d90ae")
+		)
+		(pin "4"
+			(uuid "44b11bea-9b93-442c-9368-8de5bdad9656")
+		)
+		(pin "2"
+			(uuid "1f71f98c-078b-49be-8bf3-3a0a9af8ded8")
+		)
+		(pin "1"
+			(uuid "4a1bf703-94b4-48ea-9473-1fe3e639fbf3")
+		)
+		(pin "5"
+			(uuid "9a2cbd0f-1df9-4f71-8a1e-f2e4097975e4")
+		)
+		(instances
+			(project ""
+				(path "/32ee08f7-a6c8-4bf3-88d7-556af5e47718"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Jack-DC")
+		(at 165.1 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e203f2f4-b3a6-4709-9d05-fd822a45154b")
+		(property "Reference" "J7"
+			(at 170.18 120.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "VOUT B3"
+			(at 170.18 123.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.116 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.116 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Barrel Jack"
+			(at 165.1 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9c9a7304-3dde-4185-ab3c-ebfdf624ca54")
+		)
+		(pin "1"
+			(uuid "7a7349ed-a054-41f8-acdc-a5ca561dcd91")
+		)
+		(instances
+			(project "Splitty"
+				(path "/32ee08f7-a6c8-4bf3-88d7-556af5e47718"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Thermistor_NTC")
+		(at 144.78 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eea9094d-acb6-4bfc-aaf2-a3c850dfd6f3")
+		(property "Reference" "TH1"
+			(at 145.0975 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Ambient 10K"
+			(at 145.0975 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
+			(at 144.78 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7b85e628-d01c-4c12-b40a-fd832f4a6ee4")
+		)
+		(pin "1"
+			(uuid "86a59589-cfe2-4d26-8819-ade3ec2d46b8")
+		)
+		(instances
+			(project "Splitty"
+				(path "/32ee08f7-a6c8-4bf3-88d7-556af5e47718"
+					(reference "TH1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
