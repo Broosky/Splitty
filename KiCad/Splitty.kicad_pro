@@ -315,7 +315,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -437,13 +437,17 @@
         "uuid": "32ee08f7-a6c8-4bf3-88d7-556af5e47718"
       }
     ],
-    "used_designators": "SW2,R1,D1",
+    "used_designators": "SW1-3,J1-22,R1-4,L1-2,D1-8,U1-2,U6,F1-4,C1-4,C8-15,TH1",
     "variants": []
   },
   "sheets": [
     [
       "32ee08f7-a6c8-4bf3-88d7-556af5e47718",
       "Splitty"
+    ],
+    [
+      "9d9d4bac-1aaf-4589-9cfc-1b255843afa5",
+      "Splitty Car"
     ]
   ],
   "text_variables": {},

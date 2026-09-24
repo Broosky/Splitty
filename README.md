@@ -1,6 +1,6 @@
 # 💡 Splitty
 
-A benchtop DC power splitter.
+A benchtop DC power splitter with an additional USB/DC power splitter for the car.
 
 > If you found this project useful, interesting, or worth keeping an eye on, consider giving it a ⭐️.
 > It helps others discover the project and motivates me to keep building and sharing more.
@@ -13,9 +13,17 @@ A benchtop DC power splitter.
 
 ![Splitty 3](<Construction/Splitty 3.jpg>)
 
+![Splitty Car 1](<Construction/Splitty Car 1.jpg>)
+
+![Splitty Car 2](<Construction/Splitty Car 2.jpg>)
+
+![Splitty Car 3](<Construction/Splitty Car 3.jpg>)
+
 ## 🔹 Rev 1 Schematic
 
-![Rev 1](<Schematics/Rev 1.png>)
+![Rev 1](<Schematics/Rev 1/Plotted/Splitty.svg>)
+
+![Rev 1](<Schematics/Rev 1/Plotted/Splitty-Splitty Car.svg>)
 
 ## 🔹 Rev 1
 
