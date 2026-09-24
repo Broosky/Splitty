@@ -3663,52 +3663,6 @@
 			)
 		)
 	)
-	(sheet
-		(at 281.94 0)
-		(size 39.37 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "9d9d4bac-1aaf-4589-9cfc-1b255843afa5")
-		(property "Sheetname" "Splitty Car"
-			(at 281.94 -0.7116 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Splitty Car.kicad_sch"
-			(at 281.94 13.2846 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Splitty"
-				(path "/32ee08f7-a6c8-4bf3-88d7-556af5e47718"
-					(page "2")
-				)
-			)
-		)
-	)
 	(sheet_instances
 		(path "/"
 			(page "1")
